@@ -1,0 +1,152 @@
+body{
+  background-color: #ffeee0;
+  margin: 0;
+}
+
+/* Navigasi Bar */
+.Avatar {
+    height: auto;
+    width: 50px;
+    margin: 0 auto;
+    border: 5px solid orange;
+    transition: border-radius 0.5s ease;
+    border-radius: 50%;
+}
+
+.Profile {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.Profile h3{
+  font-style: bold;
+  font-family: "Segoe UI", sans-serif;
+  background-color: rgb(255, 222, 144);
+  padding: 10px;
+  width: 80%;
+  border-radius: 10px;
+}
+
+.Daftar {
+  list-style-type: none; 
+  padding: 0.05rem 5rem; 
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font-family: "Segoe UI", sans-serif;
+  color: #191919;
+  font-weight: 650;
+}
+
+.Daftar a{
+  text-decoration: none;
+  padding: 8px;
+  width: 90%;
+  border-radius: 5px;
+}
+
+.Daftar a:hover{
+  border: 2px solid rgb(0, 157, 255);
+  border-radius: 20px;
+  color: rgb(0, 157, 255); /* Warna teks berubah menjadi biru */
+  text-shadow: 0 0 10px rgb(183, 227, 255); /* Menambahkan efek glow/menyala */
+  cursor: pointer; /* Mengubah kursor menjadi penunjuk tangan */
+}
+
+.Navbar {
+  background-color: white;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  height: 50px;
+}
+/* Akhir dari Navigasi Bar */
+
+.Teks {
+  font-family: "Segoe UI",sans-serif;
+  padding: 2rem 2rem;
+  line-height: 0.8;
+}
+
+.Teks h2 {
+  font-family: "Segoe UI",sans-serif;
+  color:#ff9900;
+}
+
+.Button {
+  padding: 2rem 0rem;
+}
+
+.Btn-Lagu {
+  font-family:"Segoe UI", sans-serif;
+  font-size: 100%;
+  font-style: bold;
+  font-weight: 650;
+  color: white;
+  background-color: #ff9d00;
+  border: 2px solid white;
+  border-radius: 20px;
+  height: 50px;
+  width: 200px;
+  box-shadow: 0 0 5px #ffcd7e,
+              0 0 15px #ffcd7e,
+              0 0 30px #ffcd7e;
+  transition: 0.1s;
+}
+
+.Btn-Lagu:active {
+  transform: translateY(4px);
+  box-shadow: 0 5px #ffcd7e;
+}
+
+.Btn-Lagu:hover {
+  box-shadow: 0 0 10px #909090;
+  cursor: pointer;
+}
+
+.Btn-Explore {
+  font-family:"Segoe UI", sans-serif;
+  font-size: 100%;
+  font-style: bold;
+  font-weight: 650;
+  color: white;
+  background-color: #ff9d00;
+  border: 2px solid white;
+  border-radius: 20px;
+  height: 50px;
+  width: 450px;
+  box-shadow: 0 0 5px #ffcd7e,
+              0 0 15px #ffcd7e,
+              0 0 30px #ffcd7e;
+  transition: 0.1s;
+}
+
+.Btn-Explore:active {
+  transform: translateY(10px);
+  box-shadow: 0 5px #ffcd7e;
+  position: relative;
+}
+
+.Btn-Explore:hover {
+  box-shadow: 0 0 10px #909090;
+  cursor: pointer;
+}
+
+.Ornamen_1 {
+  width: 40%;
+  position: absolute;
+  left: 750px;
+  top: 50px;
+}
+
+.Fitur{
+  font-family:"Segoe UI", sans-serif;
+  font-style: bold;
+  font-size: 90%;
+  font-weight: 750;
+  position: absolute;
+  left: 30px;
+  top: 580px;
+}
